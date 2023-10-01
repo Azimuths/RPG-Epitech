@@ -1,0 +1,21 @@
+.config:
+syntax:
+[COMMAND]
+    arg1,arg2,arg3,etc...
+
+AVALIABLE COMMANDS:
+
+[SKIN]
+    Args:
+        skin_name
+    Possible values:
+        HERO1,HERO2,VILLAGER3,VILLAGER7,VILLAGER8,VILLAGER9
+    Description:
+        change the default player's skin
+
+
+[CLICK_TEXTURE] / [SNOW_TEXTURE] / [RAIN_TEXTURE]
+    Args:
+        filepath
+    Description:
+        change the file used to create the particle.
